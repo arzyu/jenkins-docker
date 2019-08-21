@@ -1,5 +1,10 @@
 # 使用 docker 搭建 jenkins 服务
 
+## Requirements
+
+ * docker
+ * docker-compose
+
 ## Usage
 
 ### 运行服务
