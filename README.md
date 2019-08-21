@@ -18,7 +18,6 @@ docker-compose up -d
 # 拉取最新镜像
 docker pull jenkins/jenkins:lts-alpine
 
-# 重启服务
-docker-compose down
-docker-compose up -d
+# 使用新镜像重启服务
+docker-compose up -d --force-recreate
 ```
